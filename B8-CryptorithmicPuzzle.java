@@ -1,4 +1,9 @@
- public static void cryptorithmicPuzzle(String s1, String s2, String s3) {
+  /*
+     * given three strings s1, s2 and s3. assign each unique character of those three strings
+     * to a digit from 0 to 9, and in digit check if the sum of s1 + s2 = s3 then print it.
+     */
+
+public static void cryptorithmicPuzzle(String s1, String s2, String s3) {
         HashMap<Character, Integer> charMap = new HashMap<>();
         // mapping unique char from s1 s2 and s3 and making a unique string 
         String unique = "";
